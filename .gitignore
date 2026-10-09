@@ -1,0 +1,39 @@
+# C++ / CMake build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated datasets and result CSVs
+data/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Figure not used in final paper
+figures/figure_4_bootstrap_paired_difference.*
