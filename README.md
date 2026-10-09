@@ -2,6 +2,8 @@
 
 A computational research project investigating whether machine-learning surrogate models can accelerate Monte Carlo portfolio tail-risk estimation while preserving the accuracy of Value-at-Risk (VaR) and Expected Shortfall (ES).
 
+ðŸ“„ **[Read the full research paper (PDF)](paper/Quant_Tail_Risk_Research.pdf)**
+
 ## Research question
 
 **How much full-revaluation training data is required for a machine-learning surrogate to estimate extreme portfolio tail risk accurately, and when does the resulting computational saving outweigh the surrogate error?**
@@ -47,16 +49,13 @@ The 250,000-observation MLP achieved the strongest overall predictive accuracy, 
 
 ## Repository structure
 
-cpp/
-- include/ — C++ headers
-- src/ — pricing, scenario generation and revaluation
-- tests/ — automated tests
-
-python/ — surrogate modelling and statistical analysis
-
-figures/ — final research figures
-
-CMakeLists.txt — C++20/CMake build configuration
+```text
+cpp/             C++ pricing, scenario generation, revaluation and tests
+python/          surrogate modelling and statistical analysis
+figures/         final research figures
+paper/           full research paper (PDF)
+CMakeLists.txt   C++20/CMake build configuration
+```
 
 ## Scope
 
